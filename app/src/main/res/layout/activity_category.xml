@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"/>
+
+
+<!--
+    the important part here that View have an ID
+    we will use it in the activity itself that
+    enclose fragment
+-->
+
+
+    <!-- Small explanation to Fragment transaction -->
+
+
+    <!--
+        here:
+        1-we create An Activity HOLDS Fragment
+            a-this activity should have XML file to host the fragment on it
+              in our case here Activity_category
+            b- the fragment also have it's own XML file to define how it she want
+                to look like in our case here Word_List_Layout and Word_grid_Layout
+    -->
